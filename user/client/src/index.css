@@ -4,6 +4,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind screens;
 
 html {
   font-family: "Inter", sans-serif;
@@ -20,7 +21,7 @@ html {
 }
 
 .home {
-  @apply w-fit flex xxl:justify-between justify-start items-start flex-col xxl:py-8 xxl:px-36 sm:p-8 p-6 max-xxl:gap-7 absolute z-10;
+  @apply w-fit xl-custom:h-flex xl:justify-between justify-start items-start flex-col xxl:py-8 xxl:px-36 sm:p-8 p-6 max-xxl:gap-7 absolute z-10;
 }
 
 .home-content {
